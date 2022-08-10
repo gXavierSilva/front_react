@@ -16,14 +16,16 @@ const Home: NextPage = () => {
   // const name: string = "Xavier";
   return (
     <div className="div__first_page">
-      <h1>Hello World! {name} </h1>
-      <button
-        onBlur={clearName}
-        onClick={changeName}
-        className="button__change_color_white"
-      >
-        Mudar de cor
-      </button>
+      <div className="div__left">
+        <img
+          src="https://www.alanaraujo.eng.br/static/media/image002.5f3f8cb5.png"
+          alt=""
+        />
+        <h1>
+          Faça seu login <br /> na plataforma
+        </h1>
+      </div>
+      <div className="div__right">Parte 2</div>
     </div>
   );
 };
