@@ -22,20 +22,6 @@ a {
 }
 
 /* nossas modificações */
-
-.button__change_color_white {
-  background-color: #ffffff;
-  color: #000000;
-  width: 4rem;
-  height: 3rem;
-  border: 0;
-}
-.button__change_color_white:hover {
-  /* transform: scale(1.2); */
-  transform: scale(1.2);
-  cursor: pointer;
-}
-
 .div__first_page {
   background-color: orange;
   display: flex;
@@ -43,6 +29,29 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+.button__change_color_white {
+  background-color: #ffffff;
+  color: #000000;
+  width: 4rem;
+  height: 3rem;
+  border: 0;
+  transition: 0.3s;
+}
+.button__change_color_white:hover {
+  /* animation: scaleBtn; */
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* @keyframes scaleBtn {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+} */
 
 @media (prefers-color-scheme: dark) {
   html {
