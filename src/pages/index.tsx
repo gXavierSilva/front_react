@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   return (
     <div className="div__first_page">
       <h1>Hello World!</h1>
-      <button className="button__change_color_red">Mudar de cor</button>
+      <button className="button__change_color_white">Mudar de cor</button>
     </div>
   );
 };
